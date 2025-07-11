@@ -1,0 +1,16 @@
+rest: 0
+snare: 38
+bass: 36
+# hihat
+closed_hihat: 42
+open_hihat: 46
+# crash
+crash: 55
+chinese_cymbal: 52
+# tom
+t1: 50
+t2: 48
+t3: 45
+# ride
+ride: 51
+ride_bell: 53

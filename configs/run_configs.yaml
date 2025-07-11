@@ -1,0 +1,29 @@
+# 运行配置文件
+bpm: 120
+numerator: 4
+denominator: 4
+output_path: "outputs/"
+bars: 4
+
+# 随机生成参数
+base_note_length: 0.5
+subdivision_probability: 0.1
+triplet_probability: 0.1
+rest_probability: 0.3
+double_note_probability: 0.1
+triple_note_probability: 0.1
+accent_probability: 0.2
+
+# 鼓的概率权重（默认为1.0）
+drum_probabilities:
+  bass: 1.0
+  snare: 1.0
+  closed_hihat: 1.0
+  open_hihat: 0.3
+  crash: 0.1
+  chinese_cymbal: 0.1
+  t1: 0.3
+  t2: 0.3
+  t3: 0.3
+  ride: 0.5
+  ride_bell: 0.2
